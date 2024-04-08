@@ -22,6 +22,36 @@
     </LogicalFolder>
     <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Aggregate mit WindowFunction.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Aggregate mit WindowFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cursor mit Update.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Cursor mit Update.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cursor_Einfache Demo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Cursor_Einfache Demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cursor_Good_better WF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Cursor_Good_better WF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cursor_Navigation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Cursor_Navigation.sql</FullPath>
+        </FileNode>
         <FileNode Name="DEV_DBDesign.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -34,6 +64,12 @@
           <AssociatedConnUserName />
           <FullPath>DEV_Heaps und deren Probleme.sql</FullPath>
         </FileNode>
+        <FileNode Name="DEV_Momentaufnahmenisolation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DEV_Momentaufnahmenisolation.sql</FullPath>
+        </FileNode>
         <FileNode Name="DEV_Problem der PROC und F.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -45,6 +81,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>DEV_Probleme der Prozeduren und Functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEV_Probleme der Sicht.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DEV_Probleme der Sicht.sql</FullPath>
         </FileNode>
         <FileNode Name="DSG__Partitionierung.sql">
           <AssociatedConnectionMoniker />
@@ -69,6 +111,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>DSG_part Sicht.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DSG_Seiten und Blöcke.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DSG_Seiten und Blöcke.sql</FullPath>
         </FileNode>
         <FileNode Name="IQP_3_Batch_Mode_Adaptive_Join.sql">
           <AssociatedConnectionMoniker />
@@ -166,6 +214,12 @@
           <AssociatedConnUserName />
           <FullPath>STAT_Stats_Problem bei SP und Var.sql</FullPath>
         </FileNode>
+        <FileNode Name="WF_Aggregate mit WindowFunction.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WF_Aggregate mit WindowFunction.sql</FullPath>
+        </FileNode>
         <FileNode Name="WF_LAG_LEAD.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
@@ -183,6 +237,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Xvents_IXWartung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_DiagnosticViews.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_DiagnosticViews.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_Fehlende Indizes.sql">
           <AssociatedConnectionMoniker />

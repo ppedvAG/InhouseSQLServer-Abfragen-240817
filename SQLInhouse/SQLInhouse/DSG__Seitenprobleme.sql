@@ -16,6 +16,18 @@ dbcc showcontig('KU')
 --- Gescannte Seiten.............................: 48028
 --- Mittlere Seitendichte (voll).....................: 97.86%
 
+--> Wie kommt es dazu, dass mehr Seiten gelesen werden als lt dbcc vorhanden
+
+--> forward record counts
+--> Das Hinzufügen von Spalten wird beim Heap dadurch gelöst, dass im "Anhang" weitere Seiten 
+-- angelegt werden mit den neuen Spaltendaten..
+-- Dadurch ist ein beachtlicher Mehraufwand vorhanden (zusätzliches Lesen, Limits der Seiten)
+-- Beheben durch Clustered IX -- wird dann immer NULL sein
+-- Wird der CL IX dann wieder gelöscht wird der Wert 0 erscheinen und kann durch hinzufügen wieder 
+-- fwrec haben
+
+
+
 --DMV
 select * from sys.dm_os_
 select * from sys.dm_db_index_physical_stats(db_id(),object_id('ku'),NULL,NULL,'detailed')

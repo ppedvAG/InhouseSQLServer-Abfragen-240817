@@ -8,10 +8,6 @@ drop table t1
 create table T1(
 		id int identity not null primary key,
 		x decimal(8,2) not null default 0,
-
-
-
-
 		spalten char(100) not null default '#'
 		)
 go
